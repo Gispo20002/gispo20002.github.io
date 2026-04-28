@@ -1,0 +1,61 @@
+# Dipendenze
+node_modules/
+**/node_modules/
+
+# Build e distribuzione
+dist/
+**/dist/
+build/
+**/build/
+release/
+**/release/
+out/
+**/out/
+
+# Electron binari e cache
+**/*.exe
+**/*.dmg
+**/*.AppImage
+**/*.snap
+**/*.deb
+**/*.rpm
+**/.electron/
+**/electron-builder-cache/
+
+# Variabili d'ambiente (contengono segreti!)
+.env
+**/.env
+!.env.example
+
+# TypeScript compilato
+**/*.js.map
+
+# Cache
+.cache/
+**/.cache/
+.parcel-cache/
+.vite/
+**/.vite/
+
+# Log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Chiave privata Tesla (non pushare mai!)
+**/private-key.pem
+backend/private-key.pem
+
+private-key.pem
